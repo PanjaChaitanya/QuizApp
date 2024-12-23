@@ -4,7 +4,7 @@ import "./App.css";
 function SocialQuiz() {
   const question = [
     "Who is the current Prime Minister of India?",
-    "Who is the current President of India?",
+    "Who is the current Deputy CM of Ap?",
     "What is the capital of Andhra Pradesh?",
     "Who is the Chief Minister of Telangana?",
     "Which year did India gain independence?",
@@ -18,30 +18,30 @@ function SocialQuiz() {
   const options = [
     {
       optionvalue: [
-        "Rahul Gandhi",
+        "YS Jagan",
         "Narendra Modi",
-        "Amit Shah",
-        "Arvind Kejriwal",
+        "Rahul Gandhi",
+        "Amit Shah"
       ],
       ans: "Narendra Modi",
     },
     {
       optionvalue: [
         "Droupadi Murmu",
-        "Ram Nath Kovind",
-        "Pratibha Patil",
-        "A. P. J. Abdul Kalam",
+        "Pawan Kalyan",
+        "Chandra babu Naidu",
+        "Anitha",
       ],
-      ans: "Droupadi Murmu",
+      ans: "Pawan Kalyan",
     },
     {
-      optionvalue: ["Hyderabad", "Amaravati", "Vijayawada", "Tirupati"],
+      optionvalue: ["Vizag", "Amaravati", "Karnool", "All of the above"],
       ans: "Amaravati",
     },
     {
       optionvalue: [
         "K. Chandrashekar Rao",
-        "Y. S. Jagan Mohan Reddy",
+        "Y. S. Jagan",
         "N. Chandrababu Naidu",
         "Pawan Kalyan",
       ],
