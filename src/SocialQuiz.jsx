@@ -45,7 +45,7 @@ function SocialQuiz() {
         "N. Chandrababu Naidu",
         "Revanth Reddy",
       ],
-      ans: "K. Chandrashekar Rao",
+      ans: "Revanth Reddy",
     },
     {
       optionvalue: ["1945", "1947", "1950", "1952"],
