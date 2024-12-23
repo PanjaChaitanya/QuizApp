@@ -102,19 +102,23 @@ function SocialQuiz() {
     setCounter(counter - 1);
     setSelectedOption(null);
   }
-
   function SelectQ(index) {
     const selected = options[counter].optionvalue[index];
     const correctAnswer = options[counter].ans;
-
-    if (selected === correctAnswer) {
+  
+    const newUserAnswers = [...ans];
+    const previousAnswer = newUserAnswers[counter];
+  
+    newUserAnswers[counter] = selected;
+    setAns(newUserAnswers);
+  
+    if (selected === correctAnswer && previousAnswer !== selected) {
       setScore(score + 1);
+    } else if (previousAnswer === correctAnswer && selected !== correctAnswer) {
+      setScore(score - 1);
     }
-
-    setAns([...ans, selected]);
     setSelectedOption(index);
   }
-
   function handleSubmit() {
     document.querySelector(".card").style.display = "none";
     document.querySelector(".result").style.display = "flex";
