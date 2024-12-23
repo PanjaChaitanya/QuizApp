@@ -43,7 +43,7 @@ function SocialQuiz() {
         "K. Chandrashekar Rao",
         "Y. S. Jagan",
         "N. Chandrababu Naidu",
-        "Pawan Kalyan",
+        "Revanth Reddy",
       ],
       ans: "K. Chandrashekar Rao",
     },
